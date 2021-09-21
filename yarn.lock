@@ -599,13 +599,6 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/bcrypt@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@types/bcrypt/-/bcrypt-5.0.0.tgz#a835afa2882d165aff5690893db314eaa98b9f20"
-  integrity sha512-agtcFKaruL8TmcvqbndlqHPSJgsolhf/qPWchFlgnW1gECTN/nKbFcoFnvKAQRFfKbh+BO6A3SWdJu9t+xF3Lw==
-  dependencies:
-    "@types/node" "*"
-
 "@types/graceful-fs@^4.1.2":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
@@ -645,18 +638,6 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
-"@types/jsonwebtoken@^8.5.5":
-  version "8.5.5"
-  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-8.5.5.tgz#da5f2f4baee88f052ef3e4db4c1a0afb46cff22c"
-  integrity sha512-OGqtHQ7N5/Ap/TUwO6IgHDuLiAoTmHhGpNvgkCm/F4N6pKzx/RBSfr2OXZSwC6vkfnsEdb6+7DNZVtiXiwdwFw==
-  dependencies:
-    "@types/node" "*"
-
-"@types/module-alias@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/module-alias/-/module-alias-2.0.1.tgz#e5893236ce922152d57c5f3f978f764f4deeb45f"
-  integrity sha512-DN/CCT1HQG6HquBNJdLkvV+4v5l/oEuwOHUPLxI+Eub0NED+lk0YUfba04WGH90EINiUrNgClkNnwGmbICeWMQ==
-
 "@types/node@*":
   version "16.9.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.1.tgz#0611b37db4246c937feef529ddcc018cf8e35708"
@@ -671,30 +652,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
-
-"@types/pino-pretty@*":
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/@types/pino-pretty/-/pino-pretty-4.7.1.tgz#2ce3f56f3cf4f9632374419d616ae2e6c933b935"
-  integrity sha512-l1ntNXdpVWsnPYUk5HyO5Lxfr38zLCgxVfEn/9Zhhm+nGF04/BiIou/m8XPwvoVZLV+livUo79VdHXMJPfUYxA==
-  dependencies:
-    "@types/pino" "*"
-
-"@types/pino-std-serializers@*":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@types/pino-std-serializers/-/pino-std-serializers-2.4.1.tgz#f8bd52a209c8b3c97d1533b1ba27f57c816382bf"
-  integrity sha512-17XcksO47M24IVTVKPeAByWUd3Oez7EbIjXpSbzMPhXVzgjGtrOa49gKBwxH9hb8dKv58OelsWQ+A1G1l9S3wQ==
-  dependencies:
-    "@types/node" "*"
-
-"@types/pino@*", "@types/pino@^6.3.11":
-  version "6.3.11"
-  resolved "https://registry.yarnpkg.com/@types/pino/-/pino-6.3.11.tgz#83652799e76b3ad692aaf68f6fbf994e83af5db2"
-  integrity sha512-S7+fLONqSpHeW9d7TApUqO6VN47KYgOXhCNKwGBVLHObq8HhaAYlVqUNdfnvoXjCMiwE5xcPm/5R2ZUh8bgaXQ==
-  dependencies:
-    "@types/node" "*"
-    "@types/pino-pretty" "*"
-    "@types/pino-std-serializers" "*"
-    sonic-boom "^2.1.0"
 
 "@types/prettier@^2.0.0":
   version "2.3.2"
@@ -715,11 +672,6 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
-
-"@types/uuid@^8.3.1":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.1.tgz#1a32969cf8f0364b3d8c8af9cc3555b7805df14f"
-  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
 
 "@types/yargs-parser@*":
   version "20.2.1"
@@ -973,11 +925,6 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-atomic-sleep@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/atomic-sleep/-/atomic-sleep-1.0.0.tgz#eb85b77a601fc932cfe432c5acd364a9e2c9075b"
-  integrity sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==
 
 babel-jest@^26.6.3:
   version "26.6.3"
@@ -3834,13 +3781,6 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
-
-sonic-boom@^2.1.0:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/sonic-boom/-/sonic-boom-2.2.3.tgz#4b97146c4986481b5245aec371bde025415db532"
-  integrity sha512-dm32bzlBchhXoJZe0yLY/kdYsHtXhZphidIcCzJib1aEjfciZyvHJ3NjA1zh6jJCO/OBLfdjc5iw6jLS/Go2fg==
-  dependencies:
-    atomic-sleep "^1.0.0"
 
 source-map-resolve@^0.5.0:
   version "0.5.3"

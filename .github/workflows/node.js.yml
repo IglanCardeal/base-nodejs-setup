@@ -1,4 +1,4 @@
-name: Mercafacil Backend API Test CI
+name: Base Node.js Backend API CI
 
 on:
   push:
